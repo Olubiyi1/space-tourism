@@ -21,7 +21,7 @@ nav{
     justify-content: space-between;
 
     img{
-        width: 30px;
+        width: 50px;
         margin-left: 30px;
         margin-top: 50px;
     }
@@ -35,30 +35,28 @@ nav{
         opacity:0.5;
         justify-content: space-evenly;
         margin-top: 50px;
-
         a{
             text-decoration: none;
             color: white;
-            font-size: 14px;
+            font-size: 20px;
         }
     }   
 }
 section {
-
     #home{
     color: white;
     display: flex;
     height: 50vh;
     width: 70%;
-    margin: 0px auto;
+    margin: 100px auto 100px;
     align-items: flex-end;
     justify-content: space-around;
     margin-top: 100px;}
 
     #circle{
         color: black;
-        width: 180px;
-        height: 180px;
+        width: 300px;
+        height: 300px;
         margin: 0px;
         padding: 0px;
         display: flex;
@@ -66,28 +64,104 @@ section {
         align-items: center;
         border-radius: 50%;
         background-color: white;
-        font-size: 30px;
-        
+        font-size: 50px;
     }
-
     h1{
         text-transform: uppercase;
-        font-size: 16px;
+        font-size: 20px;
         margin-bottom: 0px;
     }
-
     h2{
         text-transform: uppercase;
         font-size: 100px;
         margin: 10px 0px 30px;
         letter-spacing: 10px;
     }
-
     p{
         margin-top: 0px;
         margin-bottom: 0px;
-        font-size: 16px;
-        line-height: 20px;
+        font-size: 20px;
+        line-height: 25px;
     }
 }
 
+/* Destination styling */
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.containerDestination{
+    height: 100vh;
+    width: 100%;
+    font-family: "Bellefair";
+    max-height: fit-content;
+    background-image: url(/assets/destination/background-destination-desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: scroll;
+  h1{
+    font-size: 25px;
+    margin: 50px auto 0px;
+    width: 70%;
+  }
+  .destinationSection{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px auto 0px;
+    
+  }
+
+  #heading img{
+    width: 300px;
+  
+  }
+
+  #text{
+    width: 500px;
+
+    h2{
+        color: white;
+        font-size: 80px;
+        margin-top: 50px;
+        margin-bottom: 0px;
+        letter-spacing: 5px;
+    }
+
+    p{
+        color: white;
+        font-size: 20px;line-height: 25px;
+    }
+  }
+  a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 0px;
+    font-size: 20px;
+  }
+  footer{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+
+    #top p, #bottom p{
+        color:lightgray;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    span{
+        margin-top: 50px;
+        font-size: 30px;
+        color:white;
+
+    }  
+  }
+}
